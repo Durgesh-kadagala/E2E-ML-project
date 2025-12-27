@@ -4,7 +4,7 @@ import logging
 
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s : ')
 
-project_name = "wine-quality-project"
+project_name = "wine_quality_project"
 
 list_of_files = [
     f"src/{project_name}/__init__.py",
@@ -45,3 +45,5 @@ for filepath in list_of_files:
 
     else :
         logging.info(f"{file_name} is already exists")
+
+
